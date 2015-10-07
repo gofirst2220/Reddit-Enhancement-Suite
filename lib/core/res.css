@@ -106,8 +106,7 @@ body.res-console-open {
 	text-shadow: 0 0 1px #3d6da5, 0 0 1px #3d6da5, 0 0 1px #3d6da5, 0 0 1px #3d6da5, 0 0 1px #3d6da5, 0 0 1px #3d6da5, 0 0 1px #3d6da5, 0 0 1px #3d6da5;
 }
 #header-bottom-right .gearIcon {
-	cursor: default; /* firefox */
-        cursor: -moz-default; /* firefox */
+	-moz-cursor: default; /* firefox */
 	
 }
 #header-bottom-right .gearIcon.newNotification {
