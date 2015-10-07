@@ -107,6 +107,8 @@ body.res-console-open {
 }
 #header-bottom-right .gearIcon {
 	cursor: default; /* firefox */
+        cursor: -moz-default; /* firefox */
+	
 }
 #header-bottom-right .gearIcon.newNotification {
 	cursor: pointer;
